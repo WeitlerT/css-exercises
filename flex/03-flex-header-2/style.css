@@ -46,3 +46,34 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper{
+  display: flex;
+  margin-left: 30px;
+}
+
+.links {
+  padding: 0;
+  margin: 0;
+  margin-left: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.notifications {
+  margin-right: 10px;
+  height: 30px;
+}
+
+.noti-wrapper{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}

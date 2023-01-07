@@ -1,7 +1,25 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  border: 1px solid;
+  padding: 10px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
+
+ul {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+/* .left-links{
+  display: flex;
+  justify-content: flex-start;
+} */
 
 .logo {
   font-size: 48px;
